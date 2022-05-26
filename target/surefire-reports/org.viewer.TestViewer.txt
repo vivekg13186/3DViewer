@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.viewer.TestViewer
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.351 sec <<< FAILURE!
+org.viewer.TestViewer.test1()  Time elapsed: 0.351 sec  <<< FAILURE!
+java.lang.Exception: Error loading model
+	at org.viewer.MeshLoader.load(MeshLoader.java:24)
+	at org.viewer.MeshLoader.load(MeshLoader.java:16)
+	at org.viewer.TestViewer.test1(TestViewer.java:8)
+
